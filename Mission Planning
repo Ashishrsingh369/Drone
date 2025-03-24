@@ -1,0 +1,5 @@
+import numpy as np
+
+waypoints = np.array([[0, 0], [100, 0], [100, 100], [0, 100]])
+for point in waypoints:
+    print(f"Fly to coordinates: {point[0]}, {point[1]}")
